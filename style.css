@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Asap', sans-serif;
 }
 
 /*************************************************************
@@ -16,7 +17,6 @@ Margin - this creates space outside of the border area.
     margin-top: 20px;
     padding: 20px;
     width: 50%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     height: auto;
 }
 
