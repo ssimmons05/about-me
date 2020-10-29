@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    font-family: 'Asap', sans-serif;
+    background-color: white;
+    font-family: arial, sans-serif;
 }
 
 /*************************************************************
@@ -9,54 +9,90 @@ Content - where images and text appear.
 Padding - this creates the space directly around the content.
 Margin - this creates space outside of the border area.
 **************************************************************/
-
-#container {
+#header {
+    font-family: 'Share', cursive;
     margin: auto;
-    background-color: #fff;
-    color: black;
-    margin-top: 20px;
-    padding: 20px;
-    width: 50%;
-    height: auto;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(110, 8, 8, 0), rgba(110, 8, 8, 0.6)), url('./images/matthew-brodeur-slAuv1NzyYM-unsplash.jpg');
 }
 
 #left-col {
-    float: left;
-    max-width: 45%;
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 320px;
+    color: #f7f7ba;
+    text-shadow: 3px 3px 4px #3d2a10;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#left-col h1 {
+    font-size: 5em;
+    color: orange;
+ 
+}
+
+#left-col h2 {
+    font-size: 3em;
+    margin-left: 33px;
+}
+
+#left-col a {
+    color: #f7f7ba;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 10px;
+    border-style: solid;
+    border-color: #f7f7ba;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#left-col p {
+    font-size: 2.3em;
+    margin-bottom: 60px;
+}
+
+#github-link {
+    padding-top: 55px;
+}
+
+#main {
+    width: 100%;
+    border-top: solid rgb(110, 8, 8) 10px;
+    background-color: rgb(143, 42, 12);
+    background-image: url('./images/steve-johnson-zfyl7ZHE1hw-unsplash.jpg')
+    opacity: 0.3;
+}
+
+#container {
+    margin: auto;
+    color: #f7f7ba;
+    text-shadow: 3px 3px 4px #3d2a10;
+
     height: auto;
 }
 
+/***************
 #right-col {
-    float: right;
-    height: auto;
     max-width: 45%;
 }
 
 #right-col img {
     max-width: 100%;
 }
+***************/
 
-#left-col h1 {
-    color: #A64AC9;
-}
-
-#left-col a {
-    color: #A64AC9;
-    font-size: 1em;
-    text-decoration: none;
-    padding: 10px;
-    border-style: solid;
-    border-color: #A64AC9;
-    border-width: 2px;
-    border-radius: 5px;
-}
-
-#right-col img {
-    width: 350px;
-}
 
 li a {
-    color: #A64AC9;
+    color: #f7f7ba;
+    text-shadow: 3px 3px 4px #3d2a10;
     text-decoration: none;
 }
 
@@ -64,8 +100,27 @@ li a {
     margin: 50px 0px;
 }
 
-#More-text {
-    clear: both;
-    text-align: left;
+#currentProjects {
+    margin: auto;
+    height: auto;
+    background-color: lightgrey;
+    color: black;
+    width: 100%;
+    text-shadow: none;
+}
+
+#more-text {
+    text-align:  center;
+    padding-top: 50px;
     padding-bottom: 30px;
+    margin: auto;
+    width: 100%;
+}
+
+#more-text h1, #more-text h2 {
+    font-size: 3em;
+}
+
+#more-text p{
+    font-size: 1.3em;
 }
