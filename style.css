@@ -10,7 +10,7 @@ Padding - this creates the space directly around the content.
 Margin - this creates space outside of the border area.
 **************************************************************/
 
-#container {
+#container, header {
     margin: auto;
     background-color: #fff;
     color: black;
@@ -19,6 +19,38 @@ Margin - this creates space outside of the border area.
     width: 50%;
     height: auto;
 }
+
+header {
+    margin-bottom: -20px;  
+    height: 40px;
+    background-color: darkorange; 
+    color: white;
+}
+
+nav ul {
+    float: right;
+    padding-bottom: 20px;
+    font-style: arial, sans-serif;
+    list-style-type: none;
+    width: 30%;
+ }
+
+ nav li {
+    color: white;
+    display: inline;
+    padding: 0 10px;
+    padding-right: 0px;
+    margin-right: 0px;
+ }
+
+ nav a {
+     color: white;
+     text-decoration: none;
+ }
+
+ nav a:hover {
+     color: darkred;
+ }
 
 #left-col {
     float: left;
@@ -55,7 +87,7 @@ Margin - this creates space outside of the border area.
     width: 350px;
 }
 
-li a {
+.pink a {
     color: #A64AC9;
     text-decoration: none;
 }
@@ -64,8 +96,16 @@ li a {
     margin: 50px 0px;
 }
 
-#More-text {
+#more-text {
     clear: both;
     text-align: left;
     padding-bottom: 30px;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    padding: 30px 0;
+    margin: auto;
+    text-align: center;
 }
